@@ -72,3 +72,22 @@ nav ul li a {
 	padding: 15px;
 
 }
+
+article a {
+
+	display: block;
+	height: 250px;
+	text-decoration: none;
+
+}
+
+article span.progress {
+
+	width: 150px;
+	height: 10px;
+	border: 1px solid #fff;
+	float: right;
+	margin: 174px 20px 0 0;
+
+}
+
