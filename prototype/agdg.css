@@ -102,3 +102,27 @@ article span.progress {
 .detailedgame .avatar { border: 4px solid black; background-color: #888; display: inline-block; width: 64px; height: 64px; }
 
 .detailedgame a { height: auto; display: inline; }
+
+
+.about article {
+
+	background: none;
+
+}
+
+.about h2 {
+
+	color: #999;
+}
+
+.about article a {
+	height: auto;
+	display: inline;
+}
+
+.about img {
+
+	width: 64px;
+	height: 64px;
+
+}
