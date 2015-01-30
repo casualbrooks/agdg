@@ -57,21 +57,27 @@ article.aboutspace {
 
 }
 
+article.aboutspace h2 {
+
+	padding-bottom: 0;
+
+}
+
 article.aboutspace h2 a {
 
 	color: #999;
 	width: 410px;
+	padding-bottom: 0;
 
 }
 
 article.aboutspace h3.ridebottomright {
 
-	float: right;
 	text-align: right;
 	color: #999;
-	margin-top: 126px;
-	height: 40px;
-	padding-bottom: 0;
+	margin-top: 143px;
+	height: auto;
+	padding: 0;
 
 }
 
@@ -147,18 +153,15 @@ bar { display: block; height: 10px; float:left; }
 
 
 .about article {
-
 	background: none;
-
 }
 
 .about h2 {
-
 	color: #999;
 }
 
 .about article a {
-	height: auto;
+	height: 40px;
 	display: inline;
 }
 
@@ -170,7 +173,7 @@ article h3 a.link {
 	color: #999;
 	float: right;
 	margin: 0 0 0 7px;
-	height: 40px;
+	height: auto;
 }
 
 .about img {
