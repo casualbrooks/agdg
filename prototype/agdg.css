@@ -97,11 +97,20 @@ article span.progress {
 
 	width: 150px;
 	height: 10px;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	float: right;
-	margin: 170px 20px 0 0;
+	margin: 170px 13px 0 0;
 
 }
+
+bar { display: block; height: 10px; float:left; }
+
+.w20 bar { width: 30px;  }
+.w90 bar { width: 135px; }
+
+#stellarcolor bar { background-color: #ed462F; }
+#skypetscolor bar { background-color: #45b9f8; }
+
 
 .detailedgame { width: 75%; margin: 0 10%; background: #f1f1f1; padding: 20px; height: auto; }
 .detailedgame h2 { margin: 0; padding: 0; color:  #565656; font-size: 48px; }
