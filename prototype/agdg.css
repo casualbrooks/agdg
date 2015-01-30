@@ -36,6 +36,12 @@ nav ul li {
 
 }
 
+section {
+
+	max-width: 1600px;
+
+}
+
 article	{
 
 	margin: 0 0 30px 3.3%;
@@ -45,15 +51,27 @@ article	{
 	height: 250px;
 }
 
-.aboutspace {
+article.aboutspace {
 
 	background: none;
 
 }
 
-.aboutspace h2 {
+article.aboutspace h2 a {
 
 	color: #999;
+	width: 410px;
+
+}
+
+article.aboutspace h3.ridebottomright {
+
+	float: right;
+	text-align: right;
+	color: #999;
+	margin-top: 126px;
+	height: 40px;
+	padding-bottom: 0;
 
 }
 
@@ -67,7 +85,7 @@ h1 {
 
 }
 
-h2 {
+h2, h3 {
 
 	font-size: 21px;
 	margin: 0;
@@ -142,6 +160,17 @@ bar { display: block; height: 10px; float:left; }
 .about article a {
 	height: auto;
 	display: inline;
+}
+
+article h2 a {
+	height: auto;
+}
+
+article h3 a.link {
+	color: #999;
+	float: right;
+	margin: 0 0 0 7px;
+	height: 40px;
 }
 
 .about img {
