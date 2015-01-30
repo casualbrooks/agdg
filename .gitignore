@@ -54,3 +54,5 @@ docs/_build/
 target/
 prototype/agdgprototype.sublime-project
 prototype/agdgprototype.sublime-workspace
+
+**/.DS_Store
