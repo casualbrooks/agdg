@@ -105,13 +105,15 @@ article span.progress {
 
 .detailedgame { width: 75%; margin: 0 10%; background: #f1f1f1; padding: 20px; height: auto; }
 .detailedgame h2 { margin: 0; padding: 0; color:  #565656; font-size: 48px; }
+.detailedgame h3 { margin: 40px 0 5px; padding: 0;}
 
 .detailedgame .images { float: right;  }
 .detailedgame .images img { margin-left: 20px; }
 
 .detailedgame p { font-size: 21px; }
 
-.detailedgame .avatar { border: 4px solid black; background-color: #888; display: inline-block; width: 64px; height: 64px; }
+.detailedgame .avatar { border: 1px solid #ababab; background-color: #dedede; display: inline-block; width: 64px; height: 64px; }
+.detailedgame .avatar img { margin: 0; padding: 0; display: inline }
 
 .detailedgame a { height: auto; display: inline; }
 
