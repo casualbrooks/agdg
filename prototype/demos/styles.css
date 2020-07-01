@@ -1,0 +1,136 @@
+#degreelist {
+  background-color: white;
+  padding: 36px 30px 0;
+}
+
+#degreelist p {
+  margin: 23px 0 0;
+}
+
+#degreelist.row .col {
+  margin: 0 0 56px;
+}
+
+#degreelist.row .col .card {
+  border: 0;
+  margin: 0 0 23px;
+  padding: 0;
+}
+
+#degreelist.row .col .card .bgimage {
+  background-size: cover;
+  padding-top: 233px;
+}
+
+#degreelist.row .col .card .bgimage .titlecolorband {
+  display: flex;
+  background-color: rgba(174, 45, 13, 0.81);
+  margin: auto;
+  padding: 7px 35px 0;
+  height: 85px;
+}
+
+#degreelist.row .col .card .bgimage .titlecolorband h4 {
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: auto;
+}
+
+#degreelist.row .col .card .card-body {
+  padding: 0;
+}
+
+#degreelist.row .col .card a {
+  color: #ff651e;
+  transition: .9 ease-in-out;
+}
+
+#degreelist.row .col .card a:hover {
+  color: #ff1e00;
+}
+
+#degreelist.row .col .card a span.atsymbol {
+  color: hotpink;
+}
+
+#degreelist.row .col .card a.presenter {
+  text-decoration: none;
+  float: right;
+  transition: .6 ease-in-out;
+}
+
+#degreelist.row .col .card a.presenter:hover {
+  color: hotpink;
+}
+
+#degreelist.row .col .card a.presenter:hover span.atsymbol {
+  color: #ff651e;
+}
+
+#degreelist.row .col .card a.presenter:hover span.atsymbol:hover {
+  transition: .9;
+  color: hotpink;
+}
+
+#degreelist.row .col .card a.button {
+  background-color: #282c33;
+  border-color: #ff7300;
+  color: #ff651e;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  padding: 10px 64px;
+  text-align: center;
+  transition: .3 ease-in;
+}
+
+#degreelist.row .col .card a.button:visited {
+  color: white;
+}
+
+#degreelist.row .col .card a.button:hover {
+  background-color: white;
+  border-color: #ff1e00;
+  color: hotpink;
+}
+
+@media screen and (max-width: 575px) {
+  #degreelist.row {
+    padding: 0 37px 30px;
+  }
+  #degreelist.row.row {
+    padding: 0;
+  }
+  #degreelist.row.row .card {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #c9c9c9;
+  }
+  #degreelist.row.row .card .bgimage {
+    background: none !important;
+    padding-top: 0;
+  }
+  #degreelist.row.row .card .bgimage .titlecolorband {
+    background: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  #degreelist.row.row .card .bgimage .titlecolorband h4 {
+    color: rgba(231, 148, 23, 0.8);
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    margin: 25px 0 0;
+  }
+  #degreelist.row.row .card .card-body {
+    padding: 0;
+  }
+  #degreelist.row.row .card a.button {
+    padding: 10px 44px;
+    margin: 25px auto;
+    width: auto;
+  }
+}
